@@ -1,0 +1,48 @@
+body{
+   background: lightgrey;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logoB{
+   width: 200px;
+   opacity: 20px;
+}
+.homeNav a{
+    background: rgb(58, 113, 194);
+    border-radius: 2px;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    display: flex;
+}
+.aboutNav a{
+    background: rgb(58, 113, 194);
+    border-radius: 2px;
+    text-decoration: none;
+    width: 40px;
+    height: 20px;
+    padding: 5px;
+    display: flex;
+}
+.contactNav a{
+    background: rgb(58, 113, 194);
+    border-radius: 2px;
+    text-decoration: none;
+    width: 40px;
+    height: 20px;
+    padding: 5px;
+    display: flex;
+}
+.servicesNav a{
+    background: rgb(58, 113, 194);
+    border-radius: 2px;
+    text-decoration: none;
+    width: 40px;
+    height: 20px;
+    padding: 5px;
+    display: flex;
+}
