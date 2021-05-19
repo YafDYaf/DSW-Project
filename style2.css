@@ -1,0 +1,51 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carousel-item {
+    height: 28rem;
+    background: #383636;
+    color: white;
+    position: relative;
+    position: center;
+    background-size: cover;
+}
+
+.container {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.background {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 120px;
+}
+
+narbar {
+    /* This is for setting the dimensions of the navigation bar */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+
+/* This is for styling the list elements */
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+}
