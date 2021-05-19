@@ -4,124 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOPHELO Home</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/30e2c9c0af.js" crossorigin="anonymous"></script>
+    <title>Home Page and Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <section class="landing">
+    <div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href="index.html" style = "font-family: 'Times New Roman', Times, serif;">BOPHELO ADMIN SOLUTIONS</a>
+            </div>
             <nav>
-                <h1 id="logo">Bophelo Assistance</h1>
-                <ul class="nav_btn">
-                    <a class="h_btn" href="index.html"><li>Home</li></a>
-                    <a class="h_btn" href="Loggin.html"><li>Login</li></a>
-                    <a class="h_btn" href="REGISTRATION PAGE.html"><li>SignUp</li></a>
+                <ul id="MenuItems">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="login.html"><button id="loginbtn">Login</button></a></li>
                 </ul>
-            
             </nav>
-            <br><br>
-            <div class="slide_container">
-                <span id="slider-img-1"></span>
-                <span id="slider-img-2"></span>
-                <span id="slider-img-3"></span>
-                <span id="slider-img-4"></span>
-                <div class="img_container">
-                 <img src="01.jpg" class="slider_img">
-                 <img src="03.jpg" class="slider_img">
-                 <img src="01.jpg" class="slider_img">
-                 <img src="03.jpg" class="slider_img">
-                </div>
-            </div>
-            <div class="button_container">
-                <a href="#slider-img-1" class="slider_btn"></a>
-                <a href="#slider-img-2" class="slider_btn"></a>
-                <a href="#slider-img-3" class="slider_btn"></a>
-                <a href="#slider-img-4" class="slider_btn"></a>
-            </div>
-            <br><br>
-            <div class="social_menu">
-             <ul>
-                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                 <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-             </ul>
-              
-            </div>
-            <br><br>
-            <div class="flex_container">
-            <div class="box1 "><br><br>
-                <b><h4>Our Services.</h4></b>
-                <br><br>
-                <b>The paperwork</b> is insane and a lot of <b>the information</b> isn't readily <b>available</b> to help clear
-                all admin in good time. <b>Our App</b> does all that for you. If one person is registered with us , 
-                everything containing their <b>WILL</b> and <b>INSURANCES</b> will be  on they have 3 people as next of kin should
-                they require all the informations. We confirm all this by ID and YOU can access all this when death certiicate
-                application has been processed at Home Affairs.
-               <b> WE ARE THE 3RD PARTY, WORKING WITH ALL INDUSTRIES , LAWYERS, HOME AFFAIRS, INSURANCES.</b> 
 
-            </div>
-            <div class="box2 "><br><br>
-                <b><h4>About Us.</h4></b>
-                <br>
-                <p>
-                Death is one thing that is inevitable to all of us and the ontire process can be 
-                    made more acceptable for your loved ones if you plan properly and ensure that 
-                    you have everything together that your executors may require to complete 
-                    the estate administration process as quickly and efficiently as possible.
-                Dealing with loved one's personal and financial affairs is never easy and 
-                can be a long and drawn-out process, thus prolonging the traumatic experience,
-                 unless you plan properly.
-                The problem is that a family member would need to do all the approaching and finding 
-                out about the persons insurances.
-                </p>
-            </div>
-            <div class="box3 "><br><br>
-                <b><h4>What we need from you:</h4></b>
-                <br><br>
-            </div>
-
-            </div>
-        </section>
-    </main>
-    <div class="intro">
-        <div class="intro_text">
-            <h1 class="hide">
-                <span class="text">Welcome</span>
-            </h1>
-            <h1 class="hide">
-                <span class="text">Home</span>
-            </h1>
-            <h1 class="hide">
-                <span class="text">BOPHELO</span>
-            </h1>
-            <h1 class="hide">
-                <span class="text">ASSISTANCE</span>
-            </h1>
-        </div>
-    </div>
-    <footer>
-    <div class="footer_content">
-        <h4> Bophelo Assistance.LLC</h4>
-        <p>We'd love to hear from you! Whether you'd like to get in touch, enquire about us, 
-            use our services or reach out on behalf of the media.
-        </p>
-        <ul class="footer_items">
-            <li><a href="#"><i class="fas fa-envelope"></i>ContactUs</a></li>
-        </ul>
-    </div>
-    <hr>
-    <p>copyright &copy;2021  designed by <span>BopheloSolution</span></p>
-    </footer>
-    
-    <div class="slider"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
-        integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
-        crossorigin="anonymous"></script>
-    <script src="app.js"></script>
-    
+    <script src="main.js"></script>
 </body>
 </html>

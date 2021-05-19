@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- (form hidden) initially hides the form -->
+        <form class="form form--hidden" id="login">
+            <h1 class="form__title">Login</h1>
+
+            <!-- input field for username/password -->
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Username or email address" required>
+            </div>
+
+             <!-- input field for password -->
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Password" required>
+            </div>
+
+            <!--  -->
+            <button class="form__button" type="submit">Continue</button>
+
+            <!-- if you forgot your password -->
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot your password?</a>
+            </p>
+
+            <!-- create account if you don't have one -->
+            <p class="form__text">
+                <a href="./" class="form__link" id="linkCreateAccount">Don't have account? Create account</a>
+            </p>
+        </form>
+
+
+
+        <form class="form" id="createAccount">
+            <h1 class="form__title">Create Account</h1>
+
+            <!-- input field for username -->
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Username" required>
+            </div>
+
+             <!-- input field for Email Address -->
+             <div class="form__input-group">
+                <input type="email" class="form__input" autofocus placeholder="Email Address" required>
+            </div>
+
+             <!-- input field for password -->
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Password" required>
+            </div>
+
+             <!-- input field for confirm password -->
+             <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Confirm Password" required>
+            </div>
+
+            <!-- continue button -->
+            <button class="form__button" type="submit">Continue</button>
+
+            <!-- Sign in if you already have an account -->
+            <p class="form__text">
+                <a href="./" class="form__link" id="linkLogin">Already have an account? Sign In</a>
+            </p>
+        </form>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
