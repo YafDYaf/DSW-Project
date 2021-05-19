@@ -215,6 +215,32 @@
        text-decoration: none;
        color: black;
    }
-   
+   footer{
+       background-color: rgb(191, 191, 194);
+       height: 50px;
+       width: 100vw;
+       font-family: 'Montserrat', sans-serif;
+       padding-top: 40px;
+       color: black;
+   }
+   .footer_items{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: start;
+   }
+   .footer_items p{
+       max-width: 300px;
+       margin: 10px auto;
+       line-height: 26px;
+       font-size: 12px;
+   }
+   .footer_items h3{
+       font-size: 1.3rem;
+       font-weight: 300;
+       text-transform: capitalize;
+       line-height: 2rem;
+   }
    
    
