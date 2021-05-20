@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PROFILE PAGE</title>
+</head>
+<body>
+
+    <nav>
+        <h1 id="logo">Bophelo Solutions</h1>
+        <ul class="nav_btn">
+            <a class="h_btn" href="index.html"><li>Home</li></a>
+            <a class="h_btn" href="Loggin.html"><li>Login</li></a>
+            <a class="h_btn" href="REGISTRATION PAGE.html"><li>SignUp</li></a>
+        </ul>
+    </nav>
+    <form action="/action_page.php">
+        <div class="container">
+            <h1>Upload Documents</h1>
+            <p>Please upload the relevant documents.</p>
+            <hr>
+
+           <form action="/action_page.php">
+		<label for="willFILE">PLEASE SUBMIT YOUR WILL</label>
+		<br><br>
+		<input type="file" id="willFILE" name="filename1">
+		<input type="submit">
+		<br><br>
+		<label for="secondDOC">SECOND DOCUMENT</label>
+		<br><br>
+		<input type="file" id="secondDOC" name="filename2">
+		<input type="submit">
+		<br><br>
+		<label for="thirdDOC">THIRD DOCUMENT</label>
+		<br><br>
+		<input type="file" id="thirdDOC" name="filename3">
+		<input type="submit">
+		<br><br>
+		<label for="fourthDOC">FOURTH DOCUMENT</label>
+		<br><br>
+		<input type="file" id="fourthDOC" name="filename4">
+		<input type="submit">
+		<br><br>
+
+		<h1>NEXT OF KIN</h1>
+
+		<label type="text"> Do you have a next of kin? </label>
+		<br><br>
+		<label for="optionYES"> Yes </label><input type="checkbox" id="optionYES" name="yesBOX">
+		<br><br>
+		<label for="optionNO"> No </label><input type="checkbox" id="optionNO" name="noBOX">
+        <br><br>
+
+
+            <fieldset>
+            <h1> Next of Kin 1</h1>
+                <select name="nextofkin1"> <!-- with these placeholders i was thinking, when the user clicks "Other" then another input box pops up so the user can put their relation to the next of kin-->
+                    <option value ="years"> Who are they to you? </option>
+                    <option value ="father"> Father </option>
+                    <option value ="mother"> Mother </option>
+                    <option value ="brother"> Brother </option>
+                    <option value ="sister"> Sister </option>
+                    <option value ="husband"> Husband </option>
+                    <option value ="wife"> Wife </option>
+                    <option value ="son"> Son </option>
+                    <option value ="daughter"> Daughter </option>
+                    <option value ="uncle"> Uncle </option>
+                    <option value ="aunt"> Aunt </option>
+                    <option value ="other"> Other </option>
+                </select>
+                <br><br>
+
+            <label for="nextofkin1firstname"><b>First Name</b></label> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <input type="text" placeholder="Enter First Name" name="First Name" id="nextofkin1firstname" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <label for="nextofkin1lastname"><b>Last Name</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter Last Name" name="Last Name" id="nextofkin1lastname" required>
+            <br><br>
+            <label for ="nextofkin1phonenumber"><b>Phone Number</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter Phone Number" name="phonenumber" id="nextofkin1phonenumber" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <label for ="idnumber1"><b>ID Number</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter ID Number" name="idnumber" id="idnumber1" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+            <h1> Next of Kin 2</h1>
+                <select name="nextofkin2"> <!-- with these placeholders i was thinking, when the user clicks "Other" then another input box pops up so the user can put their relation to the next of kin-->
+                    <option value ="years"> Who are they to you? </option>
+                    <option value ="father"> Father </option>
+                    <option value ="mother"> Mother </option>
+                    <option value ="brother"> Brother </option>
+                    <option value ="sister"> Sister </option>
+                    <option value ="husband"> Husband </option>
+                    <option value ="wife"> Wife </option>
+                    <option value ="son"> Son </option>
+                    <option value ="daughter"> Daughter </option>
+                    <option value ="uncle"> Uncle </option>
+                    <option value ="aunt"> Aunt </option>
+                    <option value ="other"> Other </option>
+                </select>
+            <br><br>
+            <label for="nextofkin2firstname"><b>First Name</b></label> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <input type="text" placeholder="Enter First Name" name="First Name" id="nextofkin2firstname" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <label for="nextofkin2lastname"><b>Last Name</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter Last Name" name="Last Name" id="nextofkin2lastname" required>
+            <br><br>
+            <label for ="nextofkin2phonenumber"><b>Phone Number</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter Phone Number" name="phonenumber" id="nextofkin2phonenumber" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <label for ="idnumber2"><b>ID Number</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter ID Number" name="idnumber" id="idnumber2" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            </fieldset>
+           </form>
+        </div>
+    </form>
+
+    <style>
+
+         body{
+            background: #455A64;
+        }
+
+        nav{
+       display: flex ;
+       align-items:flex-end;
+       justify-content: space-between;
+       min-height: 10vh;
+        }
+    </style>
+</body>
+</html>
